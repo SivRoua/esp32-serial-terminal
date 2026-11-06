@@ -1,0 +1,23 @@
+# ESP-IDF
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+managed_components/
+
+# Build artifacts & temp files
+*.o
+*.a
+*.d
+*.bin
+*.elf
+*.map
+
+# Editor and IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
